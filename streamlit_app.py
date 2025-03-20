@@ -29,15 +29,15 @@ st.info('This app uses a machine learning model to recommend the best crop (Whea
 
 # Dataset for demonstration purposes (expanded with new soil types)
 data = {
-    'soil_type': ['Loamy', 'Sandy', 'Clay', 'Loamy', 'Sandy', 'Clay', 'Black', 'Alluvial', 'Red'],
-    'temperature': [20, 30, 25, 18, 32, 28, 25, 27, 22],
-    'rainfall': [20, 15, 22, 18, 14, 16, 23, 21, 19],  # Rainfall in cm
-    'humidity': [50, 65, 70, 45, 60, 55, 68, 52, 62],
-    'nitrogen': [50, 40, 60, 55, 45, 65, 55, 60, 50],
-    'phosphorus': [30, 35, 40, 20, 45, 25, 40, 35, 30],
-    'sulphur': [20, 25, 30, 15, 35, 20, 28, 22, 25],
-    'potassium': [40, 50, 55, 60, 45, 50, 60, 55, 52],
-    'crop': ['Wheat', 'Paddy', 'Paddy', 'Wheat', 'Paddy', 'Wheat', 'Wheat', 'Paddy', 'Wheat']
+    'soil_type': ['Loamy', 'Sandy', 'Clay', 'Loamy', 'Sandy', 'Clay', 'Black', 'Alluvial', 'Red', 'Loamy'],
+    'temperature': [20, 30, 25, 18, 32, 28, 25, 27, 22, 26],
+    'rainfall': [20, 15, 22, 18, 14, 16, 23, 21, 19, 30],  # Rainfall in cm
+    'humidity': [50, 65, 70, 45, 60, 55, 68, 52, 62, 75],
+    'nitrogen': [50, 40, 60, 55, 45, 65, 55, 60, 50, 70],
+    'phosphorus': [30, 35, 40, 20, 45, 25, 40, 35, 30, 50],
+    'sulphur': [20, 25, 30, 15, 35, 20, 28, 22, 25, 60],
+    'potassium': [40, 50, 55, 60, 45, 50, 60, 55, 52, 80],
+    'crop': ['Wheat', 'Paddy', 'Paddy', 'Wheat', 'Paddy', 'Wheat', 'Wheat', 'Paddy', 'Wheat', 'sugarcane']
 }
 
 df = pd.DataFrame(data)
