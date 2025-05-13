@@ -37,7 +37,7 @@ data = {
     'phosphorus': [30, 35, 40, 20, 45, 25, 40, 35, 30],
     'sulphur': [20, 25, 30, 15, 35, 20, 28, 22, 25],
     'potassium': [40, 50, 55, 60, 45, 50, 60, 55, 52],
-    'crop': ['Wheat', 'Paddy', 'Paddy', 'Wheat', 'Paddy', 'Wheat', 'Wheat', 'Paddy', 'Wheat']
+    'crop': ['Wheat', 'Paddy', 'sugarcane', 'barley', 'cotton', 'maize', 'millets', 'pulses', 'Wheat']
 }
 
 df = pd.DataFrame(data)
