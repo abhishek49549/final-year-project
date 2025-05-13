@@ -23,7 +23,7 @@ def add_background(image_file):
 add_background('https://i.postimg.cc/kgHLg4YL/premium-photo-1698086768776-2fe137e167df.avif')
 
 # Title of the app
-st.title('Crop Recommendation: Wheat / Paddy')
+st.title('CropNex : Crop Recommendation System')
 
 st.info('This app uses a machine learning model to recommend the best crop (Wheat or Paddy) based on your input!')
 
